@@ -1,0 +1,46 @@
+/*SELECT*/
+
+::-webkit-selection {
+    color: #fff;
+    background: rgb(241, 91, 91);
+    /*00ADB5*/
+}
+
+ ::-moz-selection {
+    color: #fff;
+    background: rgb(241, 91, 91);
+}
+
+ ::selection {
+    color: #fff;
+    background: rgb(241, 91, 91);
+}
+
+b{
+    color: rgb(241, 91, 91);
+}
+
+.ha{
+    hyphens:auto;
+}
+
+
+/*SCROLL SOLO PARA CHROME*/
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(241, 91, 91);
+    height: 5px;
+    border-radius: 50px;
+}
+
+ ::-webkit-scrollbar-thumb:active {
+    background: #ff3f3f 
+}
+
+ ::-webkit-scrollbar-track {
+    background: rgb(15 23 42 / 1);
+}
